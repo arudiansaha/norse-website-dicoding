@@ -146,12 +146,12 @@ a {
   gap: 2rem;
 }
 
-.section {
+.article {
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.section__content {
+.article__content {
   flex-basis: 80%;
 }
 
@@ -243,12 +243,12 @@ a {
     padding: 1.5rem 2rem;
   }
 
-  .section {
+  .article {
     flex-direction: row;
     gap: 1.5rem;
   }
 
-  .section__title {
+  .article__title {
     position: sticky;
     top: var(--scroll-padding, 0);
     flex-basis: 20%;
